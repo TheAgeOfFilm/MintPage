@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        window.ownerId = "0xdf5d4cE14b38D75DeB7208f2517B10E9e41eC8d8"
+        window.collectionId = "bwpPBBMjaho3iWICL18h"
+    </script>
+    <script type="module" src="https://storage.googleapis.com/scriptslmt/0.1.3/eth.js" defer></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/scriptslmt/0.1.3/eth.css">
+
+    <style>
+        #main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            font-size: 50px;
+        }
+
+        #mint-counter {
+            color: wheat;
+        }
+        .banner {
+            padding-top: 250px;
+            width: 100%;
+            height: 600px;
+            background-image: url("https://lh3.googleusercontent.com/tbIS7-D6rWPw3oE0XGIVGLQn4gaAFEV_j5CM-v-gtAHMA3IrrhlRbm1d7YHLe2QjP_mnVyLAPK3wW_QYeqAYAWPBzSh4ahPMivvvKCxWanGLyyWUSWwDTVn5HdcVvKKjJw6cwZvjyGNjRD1wsmraixBYmdFQYIzAWx_34D9QvBDD5UJ79ilUO_-5M1kOy3fCc-FzpvcXIED0E19zK1IlGck_98A4vvyb2xR-1IY0fF8EtMNXKT1ltfdJ0IjBCbT7DsyHDylN8v9hO4pulS2A8qFaQ8gk4zlWnI_zAfcOSSyY7Lvnwt3LF5FYhxBvCuuLAzO9HCNdd9oUPrmZv6UHYr37oVPglLhcPUrg47rswf1ZOmqvZmz8S0KmWRyQdgsQPDAAC7cYKz1kdse8ML0BDOl_IZvuY0B1Xpqr7xSCQRZ8eRGannBtKjO-0p8BEDvIjhzW8bZmpqSj3M_R99f65eg6tTIEQPeC4Bidn-PBb77SlG0dOmMkgp1GlN342a-81XX2xYeOhjIIkDdPjTOosWKhKS3Cb10T8xgYjJH0wQSKBoGOAN2rHzI1avdwhb512W7hgnVhLhaNwwQQoYdeCKUoELtggdisoxqOhiFNyl6TDlCnlSiC_3oCbGyl4aVm2LzhjMm1J-1gaByQxq9EvwfTrjpjsq6UmTWucDUv1hIDxyhpog9ph-LdXOfPGbkRAiw_TNVlguKJmnClhKxmVP8jc29L4H8p7Z6Ip1LxxloI2UTmTsb82kBQfhrG=w1920-h900-no?authuser=0");
+            background-repeat: repeat;
+        }
+
+        .quote {
+            width: 50%;
+            margin: 0 auto;
+            font-size: 50px;
+            color: black;
+            padding-left: 20px;
+        }
+
+        .typewriter h1 {
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid black; /* The typwriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+           
+            animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+            font-size: 50px;
+            font-weight: lighter;
+            letter-spacing:6px;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+            from, to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: black;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: black">
+
+    <div class="banner">
+       
+        <div id="main-container">
+            <!--<p>The Age Of Film</p>-->
+            <div class="typewriter">
+                <h1>The Age Of Film</h1>
+
+            </div>
+            <p style="margin:20px"></pstyle>
+            
+            <p style="margin: 20px; font-size:24px;">Price : 0.005 ETH</pstyle>
+            <div id="mint-button-container"></div>
+            <p style="margin:10px"></pstyle>
+            <div id="mint-counter"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
